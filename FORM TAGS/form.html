@@ -1,0 +1,61 @@
+<html>
+<head>
+    <title>
+        Form
+    </title>
+</head>
+<body>
+    <font size = 6>
+        <center>
+            Email Account Form
+        </center>
+    </font>
+    <fieldset>
+    <font size=5>
+    Enter Username 
+    <input type="text" name="txtUser" maxlength=30/>
+    <br><br>
+    Enter Password 
+    <input type="password" name="txtPass"/>
+    <br><br>
+    Address
+    <textarea name="add" cols="30" rows="5"></textarea>
+    <br> <br>
+    Fields Of Interest
+    <input type="checkbox" name="chk1">Entertainment
+    <input type="checkbox" name="chk2">Sports
+    <input type="checkbox" name="chk3">News
+    <br><br>
+    Gender
+    <input type="radio" name="optGender">Male
+    <input type="radio" name="optGender">Female
+    <br><br>
+    Select Languages
+    <select name="lang" multiple>
+        <option >English</option>
+        <option >Deutsch</option>
+        <option >Spanish</option>
+        <option >French</option>
+        <option >Japanese</option>
+    </select>
+    <br><br>
+    Select Country
+    <select name="entry" >
+        <option >India</option>
+        <option >Germany</option>
+        <option >Spain</option>
+        <option >France</option>
+        <option >Japan</option>
+    </select>
+    <br><br>
+    Upload Photo
+    <input type="file" name="fileupload" accept="image/*" />
+    <br><br>
+    <input type="button" name="vld" value="Validate">
+    <input type="reset" name="rst" value="Reset">
+    <input type="submit" name="sub" value="Submit">
+    <input type="hidden" name="pagenm" value="11"/>
+    </font>
+</fieldset>
+</body>
+</html>
